@@ -12,8 +12,259 @@
     <title>Docker</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a href="#" class="navbar-brand ml-3">Docker</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"></div>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Virtualization</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Containerization</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Containerization VS Virtualization</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Tutorials</a>
+            </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+            <button class="btn menu-right-btn border" type="submit">
+                Tutorials
+            </button>
+        </form>
+    </div>
+</nav>
+</header>
+<main>
+    <div class="container-fluid p-0">
+        <div class="site-content">
+            <div class="d-flex justify-content-center">
+                <div class="d-flex flex-column">
+                    <h1 class="site-title">Docker User Introduction</h1>
+                    <p class="site-desc">teaches a new user about what Docker is and how it compares to
+                        virtualization</p>
 
 
+                    <div class="d-flex flex-row">
+                        <input type="button" value="Get Started" class="btn site-btn1 px-4 py-3 mr-4 btn-light">
+                        <input type="button" value="Tutorials" class="btn site-btn2 px-4 py-3 mr-4 btn-light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-1">
+        <div class="container text-center">
+            <h1 class="heading-1">Key Topics on Docker</h1>
+            <h2 class="heading-2">& Concepts</h2>
+            <p class="para-1">What is virtualization</p>
+
+
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem">
+                        <img src="img/img2card.jpg" alt="image 1" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">What is Docker</h4>
+                            <p class="card-text">Docker provides the ability to package and run an application in a
+                                loosely isolated environment called a container. The isolation and security allow you to
+                                run many containers simultaneously on a given host.This means you can run more
+                                containers on a given hardware combination than if you were using virtual machines.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem">
+                        <img src="img/Container_bg-1.jpg" alt="img2" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">What is Containerization</h4>
+                            <p class="card-text">Containerization is a strategy of bringing Virtualization to the
+                                OS-level. Though Virtualization is an abstraction to the hardware, containerization
+                                brings abstraction of OS. Containerization is more efficient because there is no
+                                guest OS to utilize a host’s OS and do not have to share relevant libraries and
+                                resources, unlike virtual machines. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem">
+                        <img src="img/img3car.jpg" alt="img2" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">What is Virtualization</h4>
+                            <p class="card-text">It is a general approach for getting out of in-house
+                                hardware assets. In the beginning, this technique was a revelation because
+                                it allowed developers to run multiple OS(Operating system) in different VMs
+                                (virtuals machines) all running on the same host. This dissolved the need
+                                for extra hardware resources. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-2">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-end">
+                <div class="d-flex flex-column m-4">
+                    <h1 class="heading-1">Basic Linux Commands</h1>
+                    <p class="para">We will show a list of basic linux commands and how do they work.</p>
+
+                    <input type="button" value="Click Here" class="btn site-btn2 px-4 py-3 mr-4 btn-light">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-3">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <i class="fab fa-docker fa-3x m-2"></i>
+                        <div class="d-flex flex-column">
+                            <h3 class="m-2">Developing with Docker</h3>
+                            <p class="m-2">Developing apps today requires so much more than writing code. Multiple
+                                languages, frameworks, architectures, and discontinuous interfaces between tools for
+                                each lifecycle stage creates enormous complexity. Docker simplifies and accelerates your
+                                workflow, while giving developers the freedom to innovate with their choice of tools,
+                                application stacks, and deployment environments for each project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-row">
+                    <i class="fas fa-seedling fa-3x m-2"></i>
+                    <div class="d-flex flex-column">
+                        <h3 class="m-2">Containers were just the Beginning</h3>
+                        <p class="m-2">Docker introduced what would become the industry standard for containers.
+                            Containers are a standardized unit of software that allows developers to isolate their app
+                            from its environment, solving the “it works on my machine” headache. For millions of
+                            developers today, Docker is the de facto standard to build and share containerized apps -
+                            from desktop, to the cloud. We are building on our unique connected experience from code to
+                            cloud for developers and developer teams.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-row">
+                    <i class="fas fa-rocket fa-3x m-2"></i>
+                    <div class="d-flex flex-column">
+                        <h3 class="m-2">Developers Love Docker</h3>
+                            <p class="m-2">Docker the #1 in "Most Loved " and #2 "Most Wanted" platform" in the 2019
+                                StackOverflow Survey. But you also told us that Docker “Just works” is “better than
+                                chocolate cake” and is the “Best tool ever, I'm in love.” We love hearing how you love
+                                Docker.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-4">
+                <div class="d-flex flex-row">
+                    <i class="fas fa-user-laptop fa-3x m-2"></i>
+                    <div class="d-flex flex-column">
+                        <h3 class="m-2">Docker Desktop</h3>
+                        <p class="m-2">
+                            Developer productivity tools and a local Kubernetes environment.
+                        </p>
+
+                        <a href="https://desktop.docker.com/mac/stable/Docker.dmg" class="swagbutton">Download</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-row">
+                    <i class="fas fa-user-linux fa-3x m-2"></i>
+                    <div class="d-flex flex-column">
+                        <h3 class="m-2">Docker Hub</h3>
+                        <p class="m-2">
+                            Cloud-based application registry and development team collaboration services.
+                        </p>
+
+                        <a href="https://hub.docker.com/signup" class="swagbutton">Sign up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <i class="fas fa-user-shield fa-3x m-2"></i>
+                        <div class="d-flex flex-column">
+                            <h3 class="m-2">Play with Docker</h3>
+                            <p class="m-2">
+                                Cloud-based docker environment to try out docker and learn the ropes.
+                            </p>
+
+                            <a href="https://www.docker.com/play-with-docker" class="swagbutton">Play with Docker</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--section-->
+    <div class="section-4 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="img/section%204.jpg" alt="Section 4 image" width="590">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="text-white">Docker Careers</h1>
+                    <a href="https://www.docker.com/careers">Join Us</a>
+
+                    <p class="para-1">simplify the lives of developers who are making world-changing apps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<footer>
+    <div class="section-5 text-center">
+        <h4 style="margin-top: 5%">Docker educational influence website</h4>
+        <h4 class="my-4">More on docker visit Docker.com</h4>\
+
+        <div class="form-inline justify-content-center">
+            <input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2">
+            <input type="button" value="Contact Us" class="btn btn-danger px-4 py-2">
+
+        </div>
+
+        <div class="social" style="margin: 5%">
+            <div class="d-flex flex-row justify-content-center">
+                <i class="fab fa-facebook -f m-2"></i>
+                <i class="fab fa-twitter -f m-2"></i>
+                <i class="fab fa-instagram -f m-2"></i>
+                <i class="fab fa-youtube -f m-2"></i>
+            </div>
+        </div>
+
+        <hr>
+        <h5 style="color: dodgerblue">Docker for New User &copy;</h5>
+    </div>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
